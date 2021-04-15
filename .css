@@ -1,0 +1,87 @@
+body {
+    margin:0;
+    padding:0;
+}
+.circle{
+    width:140px;
+    height:60px;
+    margin-left:100px;
+    border:1px solid black;
+    border-radius:40px;
+    margin-top:100px;
+    
+    
+
+    background-color:red;
+}
+.circle{
+    animation-name:colorchange;
+    animation-duration:2s;
+    -webkit-animation-name:colorchange;
+    -webkit-animation-duration:2s;
+    
+    animation-iteration-count: infinite;
+    
+}
+@keyframes colorchange{
+    0% {background-color:orange;}
+    10% {background-color:#f9A206;}
+    20% { background-color:red;}
+    30% {background-color:black;}
+    40% {background-color:gray;}
+    50% { background-color:white;}
+    60% {background-color:yellow;}
+    70% {background-color:blue;}
+    80% { background-color:#f9A206;}
+    90% {background-color:#537895;}
+    100% {background-color:#171717;}
+}
+
+.square{
+    width:140px;
+    height:60px;
+    margin-left:100px;
+    border:1px solid black;
+    border-radius:40px;
+    margin-top:10px;
+    
+    
+
+    background-color:red;
+}
+.square{
+    animation-name:colorchange;
+    animation-duration:3s;
+    -webkit-animation-name:colorchange;
+    -webkit-animation-duration:3s;
+    
+    animation-iteration-count: infinite;
+    
+}
+@keyframes colorchange{
+    0% {background-color:blue;}
+    10% {background-color:yellow;}
+    20% { background-color:red;}
+    30% {background-color:black;}
+    40% {background-color:gray;}
+    50% { background-color:white;}
+    60% {background-color:green;}
+    70% {background-color:voilet;}
+    80% { background-color:#f9A206;}
+    90% {background-color:#537895;}
+    100% {background-color:#171717;}
+}
+p{
+    margin-left:50px;
+    margin-top:20px
+    font-family:italic;
+    
+    font-size:20px;
+    color:black;
+}
+.circle{
+    box-shadow:   4px 4px gray;
+}
+.square{
+    box-shadow: 4px 4px gray;
+}
